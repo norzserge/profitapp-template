@@ -1,0 +1,18 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAP,6GAAO;AIAP,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,yBAAyB;EACtC,sBAAsB,EAAE,WAAW;EACnC,uBAAuB,EAAE,SAAS;CACnC",
+    "sources": [
+        "main.scss",
+        "_fonts.scss",
+        "_pallete.scss",
+        "_variables.scss",
+        "_base.scss",
+        "_layout.scss",
+        "ui-kit/_ui-kit.scss",
+        "ui-kit/_mixins.scss",
+        "ui-kit/_scroll.scss",
+        "_modules.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
