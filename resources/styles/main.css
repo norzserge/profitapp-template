@@ -1,7 +1,63 @@
 @import url(/Users/norzserge/Yandex.Disk.localized/Project/JS/profitapp-template/resources/styles/vendor/destyle.css);
+html,
+body {
+  height: 100%;
+}
+
 body {
   font-family: Roboto, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+  display: flex;
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.feedback {
+  margin-top: auto;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort {
+  display: flex;
+}
+
+.sort-type-list {
+  display: flex;
+}
+
+.controls {
+  display: flex;
+}
+
+.cards-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */
